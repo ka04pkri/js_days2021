@@ -1,0 +1,35 @@
+﻿@import './variables';
+
+.formik-input {
+    text-align: left;
+    margin-top: 10px;
+
+    input {
+        display: inline-block;
+        width: 400px;
+        margin: 5px 0;
+        box-sizing: border-box;
+        padding: 10px 20px;
+        border: 1px solid #b7b7b7;
+        border-radius: 3px;
+        background: rgba(252,252,252,1);
+        text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+        transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    }
+
+    label {
+        display: block;
+    }
+
+    .error-validation {
+        color: white;
+        background-color: red;
+        padding: 5px;
+        font-size: 14px;
+        font-weight: bold;
+        margin-top: -4px;
+    }
+}
+
+
+// global styles for forms go here

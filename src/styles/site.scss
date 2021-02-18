@@ -1,0 +1,46 @@
+﻿@import "./variables";
+@import './forms.scss';
+
+html, body, #app {
+	min-height: 100%;
+	height: 100%;
+}
+
+body {
+  	background-color: $blue;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+	'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+	sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h5, h5, .btn-lg,
+.input-group-lg .btn, b, strong {
+	letter-spacing: 0.75px;
+}
+
+footer {
+	width: 100%;
+	padding: 20px 0;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+}
+
+.green {
+	color: $green !important;
+}
+
+.red {
+	color: $red !important;
+}
+
+.primary-color {
+	color: $primary !important;
+}
+
+.active-color {
+	color: $blue;
+}

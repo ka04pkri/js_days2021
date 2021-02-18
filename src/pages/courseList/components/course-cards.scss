@@ -1,0 +1,17 @@
+﻿
+.course-card {
+	box-shadow: inset 0px 1px 0px 0px #bbdaf7;
+	background: linear-gradient(to bottom, white 5%, #c9e4ff 100%);
+	background-color: #79bbff;
+	border-radius: 3px;
+	border: 1px solid white;
+	display: inline-block;
+	color: #636363;
+	padding: 24px 24px;
+	margin: 15px;
+	width: 650px;
+
+	.course-venue {
+		font-size: 14px;
+	}
+}
